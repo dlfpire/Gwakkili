@@ -1,0 +1,9 @@
+.BoardPostList {
+  border-radius: 20px;
+  width: 100%;
+  min-height: 60rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: .25rem;
+}

@@ -1,0 +1,216 @@
+.boardLayout {
+  margin: 1rem;
+  width: 58rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.molla {
+  margin: 1rem;
+  width: 100%;
+  height: 5rem;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  background-color: aliceblue;
+}
+.dark .molla {
+  margin: 1rem;
+  width: 100%;
+  height: 5rem;
+  border: 1px solid black;
+  text-align: center;
+  color: black;
+  background-color: aliceblue;
+}
+.boardName {
+  margin: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  font-size: 1.5rem;
+  color: black;
+}
+.dark .boardName {
+  margin: 1rem;
+  border-radius: 10px;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  font-size: 1.5rem;
+  color: black;
+}
+.postMenu1 {
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px solid black;
+}
+.postBtn,
+.sortBtn {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 2.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: 0.3s;
+  font-size: 1rem;
+}
+.postBtn {
+  background-color: #5299eb;
+  border: 0;
+  color: white;
+}
+.postBtn:hover {
+  background-color: #5191da;
+  cursor: pointer;
+}
+.sortBtn {
+  background-color: rgb(233, 233, 233);
+  border: 1px solid #ababab;
+  cursor: pointer;
+  position: relative;
+}
+.sortBtn:hover {
+  border: 1px solid black;
+  background-color: rgb(233, 233, 233);
+}
+.sortBox {
+  position: relative;
+}
+.sortItem {
+  animation: dropdown 0.3s ease;
+  position: absolute;
+  top: 1.5rem;
+  left: -0.5rem;
+  height: 8.1rem;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+}
+.sortMenu {
+  width: 4.5rem;
+  height: 2.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #ababab;
+}
+.sortMenu:hover {
+  border: 1px solid black;
+  background-color: rgb(233, 233, 233);
+}
+
+.hashTags {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.postMenu2 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid black;
+}
+.search {
+  display: flex;
+  border: 1px solid black;
+  border-radius: 50px;
+  height: 1rem;
+  padding: 0.5rem;
+}
+.searchIcon {
+  border: 0;
+  border-radius: 15px;
+  background-color: white;
+}
+.searchIcon:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.searchInput {
+  border-radius: 8px;
+  font-size: 1rem;
+  border: 0;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+.boardPage {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.pageBtnOn {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border: 0;
+}
+.pageBtnOff {
+  background-color: white;
+  color: #ababab;
+  display: flex;
+  align-items: center;
+  border: 0;
+}
+.pageBtnOn:hover {
+  color: #5299eb;
+  cursor: pointer;
+}
+
+.postList {
+  margin: 0, 1rem, 1rem 1rem;
+  width: 100%;
+}
+.postPage {
+  margin: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+@keyframes dropdown {
+  0% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 1250px) {
+  /* 타블렛 가로 */
+  .sortMenu {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 899px) {
+  /* 모바일 가로, 타블렛 세로 */
+  .sortMenu {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  /* 모바일 세로 */
+  .sortMenu {
+    font-size: 0.1rem;
+  }
+}

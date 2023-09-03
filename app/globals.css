@@ -1,0 +1,15 @@
+body {
+    background-color: white;
+    color: rgb(31, 41, 55);
+    /* --background : white;
+    --fontColor : rgb(31, 41, 55) */
+}
+
+.dark body {
+    background-color : rgb(31, 41, 55);
+    color : white;
+    /* --background : rgb(31, 41, 55);
+    --fontColor: white; */
+}
+
+/* 이 상태가 맞음. 바꾸지 마라 */

@@ -1,0 +1,94 @@
+.NewPostLayout {
+  margin: 1rem;
+  width: 58rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.boardName {
+  margin: 1rem;
+  border-radius: 10px;
+  width: 98%;
+  height: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+}
+
+.newTitle {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.inputTitle {
+  border: 1px solid #ababab;
+  border-radius: 10px;
+  width: 95%;
+  height: 3rem;
+  margin: 1%;
+  padding-left: 1rem;
+  font-size: 1rem;
+}
+.inputTitle:focus {
+  border: 1px solid black;
+  outline: none;
+}
+.newTag {
+  width: 100%;
+}
+.imgUpload {
+  width: 100%;
+}
+
+.inputTag:focus {
+  border: 1px solid black;
+  outline: none;
+}
+
+.newContent {
+  width: 100%;
+}
+.inputContent {
+  width: 95%;
+  height: 30rem;
+  margin: 1%;
+  padding: 0.5rem;
+  resize: none;
+  font-size: 1.25rem;
+}
+
+.newPostMenu {
+  display: flex;
+  justify-content: flex-end;
+  width: 96%;
+  gap: 1rem;
+}
+
+.cancelBtn,
+.postBtn {
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  height: 2.5rem;
+  width: 5rem;
+  font-size: 1rem;
+}
+.cancelBtn {
+  background-color: rgb(233, 233, 233);
+  border: 1px solid #ababab;
+}
+.cancelBtn:hover {
+  border: 1px solid black;
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+.postBtn {
+  background-color: #5299eb;
+  border: 0;
+  color: white;
+}
+.postBtn:hover {
+  background-color: #5191da;
+  cursor: pointer;
+}

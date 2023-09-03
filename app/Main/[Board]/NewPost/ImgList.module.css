@@ -1,0 +1,53 @@
+.imgListBox {
+    width: 95%;
+    height: 10.5rem;
+    border: 1px solid #ababab;
+    margin: 1%;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .imgUploadBtn {
+    width: 9rem;
+    height: 9rem;
+    background-color: white;
+    border: 1px solid #ababab;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    flex-shrink: 0;
+  }
+  .imgUploadBtn:hover {
+    background-color: rgb(233, 233, 233);
+    cursor: pointer;
+  }
+  .imgItem {
+    width: 8rem;
+    height: 8rem;
+    border: 1px solid #d1d1d1;
+    position: relative;
+    text-align: center;
+    flex: 0 0 auto;
+  }
+  .imgItem:hover{
+    opacity: .8;
+  }
+  .imgItem:hover .delBtn {
+    display: block;
+  }
+  
+  .delBtn {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    display: none;
+    top: 3.5rem;
+    left: 3.5rem;
+    z-index: 1;
+    padding: 0;
+  }

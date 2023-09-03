@@ -1,0 +1,207 @@
+.commentLayout{
+  border-bottom: 1px solid #ababab;
+}
+.commentInput {
+  margin-top: 0.5rem;
+  display: flex;
+  border: 1px solid #ababab;
+  border-radius: 10px;
+  padding: 0.5rem;
+  gap: 0.5rem;
+}
+.editdiv{
+  margin: 1rem .5rem;
+}
+.textBox {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.5rem;
+  resize: none;
+  border: 0;
+  border: 1px solid #ababab;
+  border-radius: 10px;
+}
+.textBox.reply {
+  width: 33rem;
+}
+.textBox:focus {
+  outline: none;
+  border: 1px solid black;
+}
+.editBtnBox {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.cancelBtn {
+  width: 5rem;
+  height: 1.9rem;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgb(211, 211, 211);
+  color: black;
+}
+.commentBtn {
+  width: 5rem;
+  height: 1.9rem;
+  border-radius: 5px;
+  border: 0;
+  background-color: #aed4ff;
+  color: white;
+}
+
+.cancelBtn:hover {
+  cursor: pointer;
+  background-color: rgb(199, 199, 199);
+}
+.commentBtn:hover {
+  cursor: pointer;
+  background-color: #85beff;
+}
+
+.comment {
+  margin-top: 0.5rem;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.date {
+  font-size: 0.5rem;
+}
+.userName {
+  font-size: 1.2rem;
+}
+.detail {
+  font-size: 0.8rem;
+  max-width: 44rem;
+  padding: 0.5rem;
+}
+.replyBtnBox {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.replyBtn {
+  font-size: 0.75rem;
+  max-width: max-content;
+  opacity: 0.7;
+}
+.replyBtn:hover {
+  cursor: pointer;
+  opacity: 1;
+}
+.replyListBtn {
+  font-size: 0.75rem;
+  max-width: max-content;
+  color: #85beff;
+  display: flex;
+  align-items: center;
+}
+.replyListBtn:hover {
+  color: #5299eb;
+  cursor: pointer;
+}
+.replyBox {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+.replyEditBox {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 1rem;
+}
+.replyLine {
+  margin-left: 0.5rem;
+}
+.replyEdittInfo {
+  white-space: nowrap;
+}
+.replyInfo {
+  display: flex;
+  align-items: center;
+}
+.btnbox {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 7rem;
+  gap: 0.5rem;
+  height: 6rem;
+}
+.like {
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.more {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+  height: 1.5rem;
+}
+
+.editbox.off {
+  max-width: 0;
+  border: 0;
+}
+.editbox.on {
+  max-width: 7rem;
+}
+.editbox {
+  border: 3px solid #ababab;
+  border-radius: 5px;
+  background-color: #ababab;
+  display: flex;
+  gap: 0.2rem;
+  overflow: hidden;
+  transition: max-width 0.3s ease;
+}
+.btn {
+  background: white;
+  border: 0;
+  border-radius: 3px;
+  width: 2.5rem;
+  height: 1.5rem;
+  white-space: nowrap;
+}
+.report {
+  color: red;
+  background: white;
+  border: 0;
+  width: 2.5rem;
+  height: 1.5rem;
+  white-space: nowrap;
+  border-radius: 3px;
+}
+.report:hover{
+  cursor: pointer;
+  background-color: rgb(244, 244, 244);
+}
+
+.moreBtn {
+  font-size: 1.5rem;
+}
+.btn:hover,
+.moreBtn:hover,
+.likeBtn:hover {
+  cursor: pointer;
+  color: #5299eb;
+}
+.date,
+.userName,
+.detail,
+.like {
+  margin: 0;
+}

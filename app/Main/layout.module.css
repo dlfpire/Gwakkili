@@ -1,0 +1,97 @@
+.html {
+  font-size: 16px;
+}
+
+.layout {
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.mainLayout {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  border-bottom: 2px solid black;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.emptybox {
+  
+  flex-grow: 2;
+}
+
+.adBox1,
+.adBox2 {
+  flex-grow: 1;
+  width: 9rem;
+  border-radius: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.adv {
+  width: 12rem;
+  height: 23rem;
+  background-color: aliceblue;
+  position: relative;
+}
+
+.content {
+  flex-grow: 4;
+  width: 58rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer {
+  margin-top: 1rem;
+  background-color: #5299eb;
+  width: 100%;
+  font-size: 2rem;
+  height: 3rem;
+}
+
+@media screen and (max-width: 1250px) {
+  /* 타블렛 가로 */
+  .html {
+    font-size: 12px;
+  }
+  .mainLayout {
+    min-height: 60rem;
+  }
+  .adBox1,
+  .adBox2 {
+    display : none;
+  }
+}
+@media screen and (max-width: 899px) {
+  /* 모바일 가로, 타블렛 세로 */
+  .html {
+    font-size: 8px;
+  }
+
+  
+
+  .content {
+    /* background-color: antiquewhite; */
+    flex-grow: 4;
+    width: 58rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .mainLayout {
+    min-height: 70rem;
+  }
+}

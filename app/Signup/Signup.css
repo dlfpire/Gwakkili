@@ -1,0 +1,89 @@
+.SignupMain {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 변경: 모든 요소들을 가운데로 정렬 */
+  margin-left: 5%;
+}
+
+/* 변경: 박스의 가로 너비를 조정 */
+.SignupForm {
+  margin-top: 3%;
+  width: 90%; /* 변경: 너비를 늘임 */
+}
+
+.SignupTitle {
+  font-size: 200%;
+  text-align: center;
+  margin-top: 2%;
+  font-weight: bold;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20%;
+  width: 50%; /* 변경: 너비를 늘임 */
+  margin-left: 5%;
+}
+
+.label {
+  font-size: 100%;
+  text-align: left;
+  font-weight: bold;
+  margin-bottom: 3%;
+  margin-left: 5%;
+}
+
+.inputField {
+  text-align: left;
+  width: 100%;
+  height: 30%;
+  margin-bottom: 1%;
+  font-size: 100%;
+  padding-left: 3%;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 10px;
+}
+
+.container {
+  text-align: left;
+  margin-bottom: 1%;
+  margin-left: 23%;
+  margin-right: 30%;
+}
+
+.btndiv {
+  text-align: center; /* 변경: 가운데로 정렬 */
+  margin-top: 5%; /* 변경: 위쪽 여백 추가 */
+}
+
+.Btn {
+  text-align: center;
+  width: 40%;
+  height: 1%;
+  background-color: #88c5fa;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  margin-bottom: 5%;
+  margin-right: 2%;
+
+}
+.Btn:hover {
+  background-color: #5299eb;
+}
+
+div.PhoneNotextbox input {
+  text-align: left;
+  opacity: 0.2;
+  width: 30%;
+  height: 30%;
+  border-radius: 2%;
+}
+
+nav.Signpadding {
+  padding-left: 5%;
+  padding-top: 5%;
+  padding-right: 5%;
+}

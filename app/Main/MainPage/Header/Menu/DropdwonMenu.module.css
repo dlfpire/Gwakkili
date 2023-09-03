@@ -1,0 +1,41 @@
+.menulist {
+  position: absolute;
+  width: 5rem;
+  top: 2rem;
+  left: 50%;
+  background-color: white;
+  border: 1px solid #ababab;
+  border-radius: 10px;
+  list-style: none;
+  padding: 1rem;
+  text-align: center;
+  animation: dropdown .3s ease;
+  white-space: nowrap;
+}
+
+.userInfo,
+.history,
+.logout {
+  margin: 3px auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+.userInfo:hover,
+.history:hover,
+.logout:hover {
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+
+.logout {
+  color: red;
+}
+
+@keyframes dropdown{
+  0%{
+    transform: translateY(-3%);
+  }
+  100%{
+    transform: translateY(0%);
+  }
+}

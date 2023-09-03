@@ -1,0 +1,25 @@
+.boardList {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+  gap: 1rem;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.boardLink {
+  font-size: 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.boardLink:hover {
+  color: black;
+}
+.bar {
+  background-color: white;
+  border-radius: 30px;
+  width: 2px;
+  height: 1rem;
+}

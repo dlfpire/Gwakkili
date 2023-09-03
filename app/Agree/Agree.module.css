@@ -1,0 +1,82 @@
+div.Area1 textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+  font-size: 100%;
+  padding: 2.5%;
+  border-radius: 2%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+div.Area2 textarea {
+  width: 100%;
+  height: 200%;
+  resize: none;
+  font-size: 100%;
+  padding: 2.5%;
+  border-radius: 2%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+div.Area3 textarea {
+  width: 100%;
+  height: 200%;
+  resize: none;
+  font-size: 100%;
+  padding: 2.5%;
+  border-radius: 2%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+div.Area4 textarea {
+  width: 100%;
+  height: 200%;
+  resize: none;
+  font-size: 100%;
+  padding: 2.5%;
+  border-radius: 2%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+div.divid img {
+  width: 25%;
+  height: 25%;
+  margin-left: 40%;
+  margin-right: 50%;
+}
+
+div.check4 button {
+  width: 100%;
+  height: 200%;
+  background-color: #88c5fa;
+  border-radius: 5%;
+  border: none;
+  color: white;
+  font-size: 150%;
+  font-weight: bolder;
+  font-style: inherit;
+  margin-left: 3%;
+}
+div.check4 button:hover {
+  background-color: rgb(95, 178, 242);
+}
+
+nav.AgreePadding {
+  padding-left: 22%;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+
+div.PagePadding {
+  padding-left: 37%;
+  padding-top: 5%;
+  padding-right: 37%;
+}
+
+div.check4 {
+  padding-bottom: 20%;
+}

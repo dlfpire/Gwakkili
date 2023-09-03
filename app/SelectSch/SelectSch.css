@@ -1,0 +1,48 @@
+div.Title input,
+div.Major input {
+  text-align: left;
+  width: 40%;
+  height: 100%;
+  margin-bottom: 2%;
+}
+
+.ImageSch {
+  width: 7%;
+  height: 7%;
+}
+
+div.Title label,
+div.School label,
+div.Major label {
+  font-weight: bold;
+}
+
+nav.margin {
+  padding-left: 40%;
+  padding-top: 5%;
+}
+
+select {
+  border-radius: 10%;
+  width: 35%;
+  height: 40%;
+  margin-bottom: 20%;
+}
+
+.SelectBtn {
+  text-align: center;
+  width: 40%;
+  height: 50%;
+  background-color: rgb(95, 178, 242);
+  border: none;
+  color: white;
+  margin-bottom: 10%;
+  border-radius: 10px;
+  border: 0;
+}
+
+.outer {
+  margin-top: 13%;
+  margin-left: 3%;
+  margin-right: 7%;
+}

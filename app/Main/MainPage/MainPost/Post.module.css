@@ -1,0 +1,61 @@
+/* div {
+  color: red;
+} */
+
+/* background-color: rgb(31,41,55);
+  color: white; */
+
+.post {
+  padding: 0.3rem;
+  border-bottom: 0.5px solid black;
+}
+.post:hover{
+  cursor: pointer;
+ 
+  background-color:rgb(242, 242, 242);
+}
+
+.postUser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* color: rgb(31,41,55); */
+  max-height: 1rem;
+  padding: 0.1rem;
+  font-size: 0.75rem;
+}
+
+/* .dark 붙여도 작동안됨. */
+.dark .postUser { 
+  background-color: rgb(31,41,55);
+  color: white;
+}
+
+
+.userLeft {
+  display: flex;
+  justify-content: left;
+  gap: 0.5rem;
+}
+
+.postContent {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding: 0.3rem;
+
+  color:black;
+  margin: 0;
+}
+
+
+.postInfo{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3px;
+  color: black;
+}
+

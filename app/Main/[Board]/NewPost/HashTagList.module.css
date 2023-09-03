@@ -1,0 +1,56 @@
+.hashTagList {
+  border: 1px solid #ababab;
+  border-radius: 10px;
+  margin: 1%;
+  width: 95%;
+  padding: 0.5rem;
+}
+
+.inputTag {
+  border: 0;
+  width: 95%;
+  outline: none;
+  height: 2rem;
+  margin: 0 1%;
+  font-size: 1rem;
+}
+
+.hashTags {
+  border-top: 1px solid #ababab;
+  margin: 0;
+  padding: 0.5rem 0.5rem 0 0.5rem;
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.item {
+  flex: 0 0 auto;
+  background-color: #89b6e9;
+  color: white;
+  margin: 0;
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.delBtn {
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 10px;
+  background: none;
+  padding: 0;
+  border: 0;
+  color: white;
+}
+.delBtn:hover {
+  color: rgb(80, 80, 80);
+  cursor: pointer;
+}

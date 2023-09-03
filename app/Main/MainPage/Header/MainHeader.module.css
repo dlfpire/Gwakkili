@@ -1,0 +1,169 @@
+.header {
+  background-color: #5299eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding: 1rem;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 4rem;
+  z-index: 1;
+}
+
+.icon {
+  width: 80px;
+  height: 90px;
+  display: flex;
+  justify-content: flex-start;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  top: 20%;
+  left: 3.5%;
+}
+
+.major {
+  color: white;
+  white-space: nowrap;
+  text-decoration-line: none;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  gap: 3px;
+  border-radius: 50px;
+  height: 2rem;
+  padding: 3px;
+}
+.searchIcon {
+  margin: 3px;
+  height: 1.6rem;
+  width: 1.6rem;
+  border: 0;
+  border-radius: 50%;
+  background-color: white;
+}
+.searchIcon:hover {
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+}
+.searchInput {
+  border-radius: 8px;
+  margin: 3px;
+  font-size: 1rem;
+  border: 0;
+  background-color: white;
+}
+.searchInput:focus {
+  outline: none;
+}
+
+.navbar {
+  display: none;
+}
+.menuList {
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  gap: 1rem;
+}
+.menuLink {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.navBtn {
+  background-color: #5299eb;
+  border: 0;
+  border-radius: 10px;
+}
+.navBtn:hover {
+  background-color: #3c73b3;
+  cursor: pointer;
+}
+
+.boardLink {
+  /* background-color: antiquewhite; */
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.boardLink:hover {
+  color: black;
+}
+@media screen and (max-width: 1480px) {
+
+}
+@media (max-width: 1200px) {
+  .menuList {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    position: fixed;
+
+    top: 5rem;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0);
+    padding: 40px 30px 0 0px;
+
+    background: linear-gradient(
+      to right,
+      rgba(20, 20, 20, 0.5) 10%,
+      rgba(20, 20, 20, 0.5) 25%,
+      rgba(20, 20, 20, 0.5) 50%,
+      rgba(20, 20, 20, 0.5) 75%,
+      #5299eb
+    );
+    z-index: 1;
+    backdrop-filter: blur(0.5px);
+    -webkit-backdrop-filter: blur(1px);
+  }
+  .boardList {
+    display: none;
+  }
+  .navbar {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .sizebutton {
+    display: none;
+  }
+
+}
+.menuList {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+
+.menuItem {
+  margin: 0;
+}
+
+.menuLink {
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.menuLink:hover {
+  color: black;
+}

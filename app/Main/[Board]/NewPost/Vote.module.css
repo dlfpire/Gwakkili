@@ -1,0 +1,81 @@
+.vote {
+  /* background-color: thistle; */
+  padding: 0.5rem;
+  width: 95%;
+  margin: 1%;
+  border: 1px solid #ababab;
+  border-radius: 10px;
+}
+.voteItem {
+  border: 1px solid #ababab;
+  border-radius: 10px;
+  max-width: max-content;
+  padding: 0.5rem;
+}
+
+.makeVote {
+  background-color: #92c3fa;
+  color: white;
+  border-radius: 10px;
+  padding: 1rem;
+  max-width: max-content;
+}
+
+.makeVote:hover {
+  background-color: #5299eb;
+  cursor: pointer;
+}
+.titleMenu {
+  display: flex;
+  align-items: center;
+}
+.voteTitle {
+  border: 1px solid #ababab;
+  border-radius: 10px;
+  padding: 0.4rem;
+  margin-bottom: 0.5rem;
+}
+.voteTitle:focus {
+  outline: none;
+}
+.cancelBtn {
+  border: 0;
+  background: none;
+}
+.cancelBtn:hover {
+  cursor: pointer;
+  color: #5299eb;
+}
+.voteList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.voteContent {
+  display: flex;
+  gap: 1rem;
+}
+.contentInput {
+  border: 1px solid #ababab;
+}
+.contentInput:focus {
+  outline: none;
+}
+.btnbox {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.addBtn {
+  color: #92c3fa;
+}
+.addBtn:hover {
+  cursor: pointer;
+  color: #5299eb;
+}
+.reduce:hover {
+  cursor: pointer;
+  color: rgb(222, 139, 139);
+}

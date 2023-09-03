@@ -1,0 +1,39 @@
+.comment-box {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.comment-box:hover {
+  background-color: #f0f0f0;
+}
+
+.comment-type {
+  font-weight: bold;
+}
+
+.comment-title {
+  font-size: 18px;
+}
+
+.comment-date {
+  color: #777;
+}
+
+.comment-body {
+  margin-top: 5px;
+}
+
+.pagediv {
+  margin-left: 25%;
+}
+.pagebutton1 {
+  padding: 10px;
+}
+
+.pagebutton {
+  margin-left: 10%;
+  padding: 10px;
+}

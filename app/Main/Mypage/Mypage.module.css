@@ -1,0 +1,252 @@
+.container {
+  padding: 20px;
+}
+
+/* 각 섹션 스타일링 */
+.userInfo,
+.accountSettings,
+.communitySettings,
+.etc {
+  width: 100%;
+  margin-top: 30px;
+  padding-left: 20px;
+  padding-right: 110px;
+  padding-bottom: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: none;
+  margin-left: -120px;
+}
+
+.profileSection {
+  display: flex;
+}
+
+.profileImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.list,
+.userInfomation {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 각 label 스타일링 */
+.etc label,
+.list label {
+  margin-bottom: 6px;
+  cursor: pointer;
+  transition: text-decoration 0.2s ease;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.etc label:hover,
+.list label:hover {
+  text-decoration: underline;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 모달 내부 스타일 */
+.modal {
+  background-color: white;
+  padding: 2ch;
+  padding-bottom: 5%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 25%;
+  height: auto;
+}
+.modalcg {
+  background-color: white;
+  padding: 30px;
+  padding-top: 0.3%;
+  padding-bottom: 0.3%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.mydata1 {
+  padding: 10px;
+  border-radius: 20px;
+  width: 50%;
+}
+
+.mydata {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 50%;
+}
+.mydata3 {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.mydatafix {
+  background-color: rgb(95, 178, 242);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  /* margin-right: 70px; */
+}
+
+.mydatafix:hover {
+  background-color: #0056b3;
+}
+
+.closebutton {
+  background-color: rgb(95, 178, 242);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin-left: 70px;
+  cursor: pointer;
+}
+.closebutton2 {
+  background-color: rgb(95, 178, 242);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 35%;
+}
+.closebutton:hover {
+  background-color: #0056b3;
+}
+
+.closebutton2:hover {
+  background-color: #0056b3;
+}
+
+.showPasswordButton {
+  cursor: pointer;
+  background: none;
+  border: none;
+  font-size: 18px;
+  margin-left: -40px;
+  margin-top: 6px;
+}
+
+.currentCategory {
+  margin-bottom: 20px;
+}
+
+.currentCategory p {
+  margin-bottom: 5px;
+}
+
+.Deletelist,
+.addlist {
+  margin-top: 20px;
+}
+
+.Deletelist b,
+.addlist b {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.Deletelist .inputBox,
+.addlist .inputBox {
+  margin-bottom: 10px;
+}
+
+.formBox {
+  border: 1px solid none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+  padding-right: 20px;
+}
+
+.llist {
+  padding-left: 3px;
+}
+
+.Dlist {
+  margin-right: 20px;
+}
+
+.pageContent {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.pageContent h3 {
+  margin-bottom: 10px;
+}
+
+.pageContent input[type="file"] {
+  margin-bottom: 10px;
+}
+
+.pageContent button {
+  background-color: (95, 178, 242);
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.pageContent button:hover {
+  background-color: (95, 178, 242);
+}
+
+.profilecss {
+  margin: 5%;
+  padding: 5%;
+}
+
+.infocss {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  width: 80%;
+  height: 500px;
+  max-width: 400px; /* 최대 가로 제한 */
+  max-height: 150px; /* 최대 세로 제한 */
+  overflow: auto; /* 내용이 초과할 경우 스크롤 표시 */
+
+  resize: none;
+}
+
+.myinfoBox {
+  padding-right: 10px;
+  padding-bottom: 10px;
+  margin-top: 2%;
+}
+.myinfo {
+  margin-left: 4%;
+}

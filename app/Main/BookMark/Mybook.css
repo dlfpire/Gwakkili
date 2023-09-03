@@ -1,0 +1,19 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  
+}
+.book-title {
+  cursor: pointer;
+}
+.deleteBtn{
+  border : none;
+  background: none;
+  cursor: pointer;
+}

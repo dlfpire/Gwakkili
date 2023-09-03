@@ -1,0 +1,62 @@
+.post {
+  margin-top: 0.5rem;
+  padding: 0.3rem;
+  border-bottom: 0.5px solid black;
+}
+.post:hover {
+  cursor: pointer;
+  background-color: rgb(242, 242, 242);
+}
+.postUser {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 1rem;
+  padding: 0.1rem 0;
+}
+
+.userLeft {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.nickname {
+  font-size: 0.8rem;
+  font-weight: bold;
+  opacity: 0.75;
+}
+.title {
+  font-size: 1.1rem;
+  font-weight: bolder;
+  padding: 0.7rem 0;
+  margin: 0;
+  max-width: 30rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.content {
+  font-size: 0.9rem;
+  max-width: max-content;
+}
+
+.postHash {
+  font-size: 0.8rem;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  color: #5299eb;
+}
+
+.hashTag {
+  margin: 0;
+}
+
+.cnt {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 3px;
+}

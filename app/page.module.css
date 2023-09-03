@@ -1,0 +1,78 @@
+
+.outer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+  gap: 10%;
+}
+.appImg {
+  display: inline;
+  text-align: left;
+}
+.LoginPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10%;
+}
+.img {
+  position: relative;
+  width: 20%;
+  height: 20%;
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10%;
+}
+
+.Input {
+  width: 70%;
+  height: 30%;
+  border: 1px solid #ababab;
+  padding-left: 2%;
+}
+.button {
+  width: 50%;
+  height: 30%;
+  background-color: rgb(135, 196, 242);
+  text-align: center;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+}
+.button:hover {
+  background-color: #5299eb;
+}
+
+.text {
+  width: 10%;
+  margin: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.signup {
+  text-align: right;
+  color: rgb(135, 196, 242);
+  text-decoration: none;
+}
+.serchId {
+  color: rgb(135, 196, 242);
+}
+.link {
+  margin: 0;
+  text-decoration: none;
+  color: rgb(135, 196, 242);
+}
+.link:hover {
+  color: #5299eb;
+}
+
+@media screen and (max-width: 1000px) {
+  /* 타블렛 가로 */
+  .appImg {
+    display: none;
+  }
+}

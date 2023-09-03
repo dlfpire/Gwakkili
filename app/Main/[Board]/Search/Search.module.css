@@ -1,0 +1,92 @@
+.boardLayout {
+  margin: 1rem;
+  width: 58rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.molla {
+  margin: 1rem;
+  width: 100%;
+  height: 5rem;
+  font-size: 2rem;
+  border: 1px solid black;
+  text-align: center;
+  background-color: aliceblue;
+}
+
+.postMenu {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 0.5px solid black;
+}
+
+.boardPage {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+.pageBtn {
+  background-color: white;
+  border: 0;
+}
+.pageBtn:hover {
+  color: #5299eb;
+  cursor: pointer;
+}
+
+.postList {
+  margin: 1rem;
+  width: 100%;
+  height: 100%;
+}
+.postPage {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pageIcon {
+  display: flex;
+}
+.pageIcon:hover {
+  color: #5299eb;
+  cursor: pointer;
+}
+
+.searchnone {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+
+@keyframes dropdown {
+  0% {
+    transform: translateY(-3%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@media screen and (max-width: 1250px) {
+  /* 타블렛 가로 */
+  .sortMenu {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width: 899px) {
+  /* 모바일 가로, 타블렛 세로 */
+  .sortMenu {
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  /* 모바일 세로 */
+  .sortMenu {
+    font-size: 0.1rem;
+  }
+}
